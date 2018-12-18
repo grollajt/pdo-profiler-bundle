@@ -15,7 +15,7 @@ class PdoDataCollector extends DataCollector
      */
     private $pdo;
 
-    function __construct($pdo)
+    function __construct(\PDO $pdo)
     {
         $this->pdo = new TraceablePDO($pdo);
     }
