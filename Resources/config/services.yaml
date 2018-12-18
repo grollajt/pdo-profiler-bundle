@@ -1,0 +1,9 @@
+services:
+  pdo_data_collector:
+    class: Shamotj\PdoProfilerBundle\DataCollector\PdoDataCollector
+    public: false
+    tags:
+      -
+        name: data_collector
+        id: 'pdo_data_collector'
+        template: 'ShamotjPdoProfilerBundle:Collector:db.html.twig'

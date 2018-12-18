@@ -1,0 +1,27 @@
+{
+    "name": "shamotj/pdo-profiler-bundle",
+    "type": "symfony-bundle",
+    "description": "PDO Profiler for Symfony",
+    "keywords": [
+        "symfony",
+        "profiler",
+        "pdo"
+    ],
+    "homepage": "https://github.com/shamotj/pdo-profiler-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "NEONUS, s.r.o.",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "symfony/profiler-pack": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Shamotj\\PdoProfilerBundle": ""
+        }
+    }
+}
