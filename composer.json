@@ -20,8 +20,8 @@
         "symfony/profiler-pack": "*"
     },
     "autoload": {
-        "psr-0": {
-            "Shamotj\\PdoProfilerBundle": ""
+        "psr-4": {
+            "Shamotj\\PdoProfilerBundle\\": ""
         }
     }
 }
