@@ -6,4 +6,4 @@ services:
       -
         name: data_collector
         id: 'pdo_data_collector'
-        template: 'ShamotjPdoProfilerBundle:Collector:db.html.twig'
+        template: '@ShamotjPdoProfiler/Collector/db.html.twig'
