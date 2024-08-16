@@ -18,7 +18,7 @@
     "require": {
         "ext-pdo": "*",
         "php": ">=7.0.0",
-        "symfony/profiler-pack": "*"
+        "symfony/web-profiler-bundle": "*"
     },
     "autoload": {
         "psr-4": {
