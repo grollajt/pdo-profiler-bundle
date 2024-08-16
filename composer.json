@@ -17,7 +17,7 @@
     ],
     "require": {
         "ext-pdo": "*",
-        "php": ">=7.0.0",
+        "php": ">=8.0.0",
         "symfony/web-profiler-bundle": "*"
     },
     "autoload": {
